@@ -1,0 +1,43 @@
+﻿{
+    "id": "com-ilc-technologies-demoapp",
+    "name": "DemoApp",
+    "version": "0.0.1",
+    "core_version": "3.0.0.0",
+    "manifest_version": 3,
+    
+    "product": "Your product",
+    "description": "This app displays super fancy information",
+    "company": "Your company",
+    "copyright": "Copyright ©  2015",
+    "email": "your@email.com",
+    "homepage": "http://your-homepage.de",
+    "address": {
+        "address_line1": "Address 1",
+        "address_line2": "",
+        "postal_code": "12345",
+        "city": "City"
+    },
+    
+
+    "angular": {
+        "models": [ "News" ],
+
+        "views": {
+            "detail": "template/details.html"
+        }
+    },
+
+    "icons": {
+        "tileImage": "img/tile.png",
+        "appIcon16": "",
+        "appIcon24": "",
+        "appIcon32": "",
+        "appIcon48": "",
+        "appIcon128": ""
+    },    
+
+    "dependencies": {
+        "css": [ "css/styles.css" ],
+        "js":  [ "js/details-ctrl.js" ]
+    }  
+}
