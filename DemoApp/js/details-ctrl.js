@@ -1,5 +1,7 @@
-﻿ilc.web.controller('com-ilc-technologies-demoapp_DetailsCtrl', ['$scope', '$sce', function ($scope, $sce) {
-    $scope.model = {
-        sce: $sce
-    };
-}]);
+﻿angular.module('ilc.framework.angular')
+
+    .controller('com-ilc-technologies-demoDetailsCtrl', ['$scope', '$sce', function ($scope, $sce) {
+        $scope.model = {
+            sce: $sce
+        };
+    }]);

@@ -1,12 +1,8 @@
-﻿<!-- This root div container is mandatory! Do not remove it! -->
-<div class="com-ilc-technologies-demoapp detailsfullwidth detailsfullheight">
+﻿<!-- This root div container is mandatory! Do not remove it! If you don't need a details controller, remove the ng-controller directive. -->
+<div class="com-ilc-technologies-demo detailsfullwidth detailsfullheight" ng-controller="com-ilc-technologies-demoDetailsCtrl">
 
-    <div class="detailsfullwidth detailsfullheight" ng-controller="com-ilc-technologies-demoapp_DetailsCtrl">
-        <div class="detailscontent">
-            <iframe src="about:blank" ng-src="{{model.sce.trustAsResourceUrl(item.Value.Url)}}" style="width: 100%; height: 98%;"></iframe>
-        </div>
+    <div class="detailscontent">
+        <iframe src="about:blank" ng-src="{{model.sce.trustAsResourceUrl(item.Value.Url)}}" style="width: 100%; height: 100%"></iframe>
     </div>
 
 </div>
-
-
